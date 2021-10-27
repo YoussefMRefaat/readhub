@@ -1,6 +1,6 @@
 # ReadHub
 
-Book review and rating Backend API built using ***Laravel***
+Book review and rating Backend API in ***Laravel***
 
 ## Features
 
@@ -35,6 +35,8 @@ This application has three types of roles:-
 1- Review a book <br>
 2- Update and delete their review <br>
 3- Like or dislike a review <br>
+
+_Note: The user can't like and dislike a review at the same time. If he liked a review and requested to dislike it, that only will remove the like._ <br>
 <br>
 
 ## Entity relationship diagram
